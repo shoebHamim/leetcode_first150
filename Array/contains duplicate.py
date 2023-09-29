@@ -36,7 +36,7 @@ def containsDuplicate2( nums):
       return True
   return False
 
-# interesting one
+# interesting one O(n)
 def containsDuplicate2( nums):
   unique=set()
   for i in nums:

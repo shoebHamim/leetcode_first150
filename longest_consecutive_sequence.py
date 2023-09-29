@@ -19,5 +19,20 @@ def longestConsecutive(nums):
   return max_count+1
 
 nums = [1,2,0,1]
-print(longestConsecutive(nums))
+
+# print(longestConsecutive(nums))
+
+# good one
+def longestConsecutive2(nums):
+  s=set(nums)
+  max_count=0
+  for i in s:
+    if i-1 not in s:
+      count=1
+      while i+count in s:
+        count+=1
+      max_count=max(count,max_count)
+  return max_count
+
+print(longestConsecutive2([]))
 

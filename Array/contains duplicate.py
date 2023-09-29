@@ -1,5 +1,5 @@
 # brute force gives TLE :(
-#* this is cpp sets, python ordered set uses hashtable 
+#* this is cpp sets, python set uses hashtable 
 ''' 
                |     set             | unordered_set
 ---------------------------------------------------------

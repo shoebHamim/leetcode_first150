@@ -16,7 +16,7 @@ Insertion time  | log(n) + Rebalance  | Same as search
                       
 Deletion time   | log(n) + Rebalance  | Same as search
 '''
-# using set/hashing
+# using set/hashing O(n)
 def containsDuplicate( nums):
   seen_val=set()
   for i in nums:
@@ -28,7 +28,7 @@ def containsDuplicate( nums):
 
   return False
 
-# sorting
+# sorting O(nlgn)
 def containsDuplicate2( nums):
   nums.sort()
   for i in range(len(nums)-1):

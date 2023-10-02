@@ -19,7 +19,8 @@ def groupAangrams(strs):
 # print(ans)
 
 
-# sorted key approach
+# sorted key approach : sort the string, this will make sure
+# all the anagram will have same key while storing
 import collections
 def groupAangrams2(strs):
   ans=collections.defaultdict(list)

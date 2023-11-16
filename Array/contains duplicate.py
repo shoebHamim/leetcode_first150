@@ -16,6 +16,10 @@ Insertion time  | log(n) + Rebalance  | Same as search
                       
 Deletion time   | log(n) + Rebalance  | Same as search
 '''
+
+# GitHub Copilot: The time complexity of searching for an element
+#  in a Python set is O(1), which means it takes constant time.
+#  This is because sets in Python are implemented as hash tables.
 # using set/hashing O(n)
 def containsDuplicate( nums):
   seen_val=set()
